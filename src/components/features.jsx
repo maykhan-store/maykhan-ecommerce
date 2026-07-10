@@ -1,43 +1,14 @@
-function Features(){
-
-return(
-
-<section className="features">
-
-<div>
-<h3>
-🚚 Fast Delivery
-</h3>
-<p>
-Quick and reliable shipping
-</p>
-</div>
-
-
-<div>
-<h3>
-🔒 Secure Payment
-</h3>
-<p>
-Safe transactions
-</p>
-</div>
-
-
-<div>
-<h3>
-⭐ Quality Products
-</h3>
-<p>
-Premium quality guaranteed
-</p>
-</div>
-
-
-</section>
-
-)
-
+function Features() {
+  return (
+    <section className="features">
+      <h2>Why Choose MAYKHAN?</h2>
+      <div>
+        <p>✓ Quality Products</p>
+        <p>✓ Secure Shopping</p>
+        <p>✓ Fast Delivery</p>
+      </div>
+    </section>
+  );
 }
 
 export default Features;
